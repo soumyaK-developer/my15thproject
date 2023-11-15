@@ -1,0 +1,45 @@
+#container {
+    position: relative;
+    width: 800px;
+    height: 90vh;
+    margin: auto;
+    background-color: blue;
+}
+.ball {
+    width: 121px;
+    height: 121px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    border-radius: 60%;
+    animation: anime1 10s linear 1s infinite alternate;
+}
+
+
+
+
+@keyframes anime1 {
+    0% {
+        transform: translate(0px,0px);
+    }
+    16% {
+        transform: translate(113px, -200px);
+    }
+    33% {
+        transform: translate(226px,0px);
+    }
+    49% {
+        transform: translate(339px, -200px);
+    }
+    66% {
+        transform: translate(452px, 0px);
+    }
+    83% {
+        transform: translate(565px, -200px);
+    }
+    100% {
+        transform: translate(678px, 0px);
+    }
+    
+}
